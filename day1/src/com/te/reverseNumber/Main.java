@@ -1,0 +1,15 @@
+package com.te.reverseNumber;
+
+import java.util.Scanner;
+
+public class Main {
+
+	public static void main(String[] args) {
+		Scanner scanner = new Scanner(System.in);
+		System.out.println("Enter the number");
+		int num = scanner.nextInt();
+		int reverse = UserMainCode.reverseNumber(num);
+		System.out.println("The reverse number is: " + reverse);
+	}
+
+}
